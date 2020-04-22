@@ -119,9 +119,9 @@ CorrectPassword = "ali"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[🦇] \x1b[1;96m𝐄𝐍𝐓𝐄𝐑 𝐘𝐎𝐔𝐑 𝐈𝐃 \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[🦇] \x1b[1;96mTool UserName \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[🦇] \x1b[1;96m𝐄𝐍𝐓𝐄𝐑 𝐘𝐎𝐔𝐑 𝐏𝐀𝐒𝐒𝐖𝐎𝐑𝐃l \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[🦇] \x1b[1;96mTool  Password l \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
@@ -141,9 +141,9 @@ def login():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		print('\033[1;96m[☆] \x1b[1;96m𝐋𝐎𝐆𝐈𝐍 𝐘𝐎𝐔𝐑 𝐍𝐄𝐖 𝐈𝐃 𝐇𝐄𝐑𝐄 \x1b[1;96m[☆]' )
-		id = raw_input('\033[1;96m[+] \x1b[1;96m𝐈𝐃/𝐄𝐌𝐀𝐈𝐋 \x1b[1;91m: \x1b[1;92m')
-		pwd = raw_input('\033[1;96m[+] \x1b[1;96m𝐏𝐀𝐒𝐒𝐖𝐎𝐑𝐃 \x1b[1;91m: \x1b[1;92m')
+		print('\033[1;96m[☆] \x1b[1;96mLogin Into Fresh Account \x1b[1;96m[☆]' )
+		id = raw_input('\033[1;96m[+] \x1b[1;96mId/Email\x1b[1;91m: \x1b[1;92m')
+		pwd = raw_input('\033[1;96m[+] \x1b[1;96mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
